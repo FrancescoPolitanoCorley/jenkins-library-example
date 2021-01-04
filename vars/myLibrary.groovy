@@ -1,3 +1,3 @@
-String printHello(){
-    println "hello world"
+String printHello(Map config){
+    println "hello ${config.pluto}"
 }
